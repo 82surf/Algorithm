@@ -1,4 +1,4 @@
-const input = +require("fs").readFileSync("input.txt").toString();
+const input = +require('fs').readFileSync('input.txt').toString();
 
 const solution = function (input) {
   if (input % 10) {
@@ -14,7 +14,7 @@ const solution = function (input) {
       ans[i] = n;
     }
   }
-  return ans.join(" ");
+  return ans.join(' ');
 };
 
 console.log(solution(input));

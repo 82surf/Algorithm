@@ -1,4 +1,4 @@
-const input = +require("fs").readFileSync("input.txt").toString();
+const input = +require('fs').readFileSync('input.txt').toString();
 
 const solution = function (input) {
   let numOf5 = parseInt(input / 5);

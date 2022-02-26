@@ -1,5 +1,5 @@
-const [n, ...arr] = require("fs")
-  .readFileSync("input.txt")
+const [n, ...arr] = require('fs')
+  .readFileSync('input.txt')
   .toString()
   .trim()
   .split(/\s+/)

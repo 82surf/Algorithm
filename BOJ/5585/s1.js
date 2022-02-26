@@ -1,4 +1,4 @@
-const input = require("fs").readFileSync("input.txt").toString();
+const input = require('fs').readFileSync('input.txt').toString();
 
 let change = 1000 - input;
 
